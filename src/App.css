@@ -1,0 +1,128 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  color: black;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  
+}
+label > input , .steps-btn {
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  margin-top: 10px;
+}
+
+.steps-btn{
+  height: 43px;
+}
+
+.steps-container {
+  background-color: aliceblue;
+  width: 600px;
+  min-height: 200px;
+
+}
+ 
+.steps-header{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding: 20px;
+}
+
+.steps-table-head{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.step{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.step-container{
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px;
+  padding-bottom: 20px;
+
+}
+
+.steps-place{
+  height: 20px;
+}
+
+.step-actions > button {
+  background-color:aliceblue;
+  color: black;
+}
+
+.step-modal{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 500px;
+  height: 50px;
+  background-color: #fff;
+  border: 1px solid black;
+  color: black;
+}
+
+.step-km-redact{
+  height: 30px;
+  width: 50px;
+  background-color: floralwhite;
+  color: black;
+}
